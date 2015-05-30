@@ -10,10 +10,8 @@ $(document).on('pageinit', '#home', function(){
         async: true,
         success: function (result) {
             ajax.parseJSONP(result);
-        },
-        error: function (request,error) {
-            alert('Network error has occurred please try again!');
         }
+        
     });         
 });
 

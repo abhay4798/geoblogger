@@ -20,6 +20,21 @@
 		margin-left:15%;
 	}
     </style>
+    
+    <script>
+		function redtwo()
+		{
+			window.location.assign("eateries.html");
+		}
+		function redthr()
+		{
+				window.location.assign("places.html");
+		}
+		function redfou()
+		{
+				window.location.assign("lodging.html");
+		}
+	</script>
 </head>
 
 <body>
@@ -32,24 +47,18 @@
     <div data-role="content">
       <div class="example-wrapper" data-iscroll>
         
-			<div id="list-blog">
-            <table style="margin:0;">
-            <tr>
-            <td style="margin:0; padding:6px; width:20%;">
-            <img src="burger.png"/ width="80%" style="margin-right:0;">
-            </td>
-            <td>
+			<div id="list-blog" onClick="redtwo()">
+            
             <h4 style="margin-left:0;">Eateries</h4>
-            </td>
-            </tr></table>
+            
             </div>
             <hr>
-            <div id="list-blog">
+            <div id="list-blog" onClick="redthr">
             <h4>Visiting Place</h4>
             </div>
             <hr>
-            <div id="list-blog">
-            <h4>Staying</h4>
+            <div id="list-blog" onClick="redfou()">
+            <h4>Lodging</h4>
             </div>
             <hr>
             
