@@ -14,20 +14,57 @@
   <script src="iscroll.js"></script>
   <script src="jquery.mobile.iscrollview.js"></script>
   <script src="script.js"></script>
+  
+  <style>
+  	#blog-css{
+		width:70%; margin-left:auto; margin-right:auto;
+	}
+	
+	#rate-box{
+		width:30%; margin-left:auto; margin-right:auto;
+	}
+	
+  </style>
 </head>
 
 <body>
   <div data-role="page" id="home">
     <div data-theme="a" data-role="header">
       <h3>
-            GeoBlogging
+            Eateries
         </h3>
     </div>
     <div data-role="content">
       <div class="example-wrapper" data-iscroll>
-        <ul data-role="listview" id="movie-list" data-theme="a">
+        
+        <div id="blog-css">
+        	<p>Restaurant</p>
+            <input type="text" name="restaurant-name"/>
+        </div>
+        <br>
+        
+        <div id="blog-css">
+        	<p>Blog</p>
+            <textarea rows="2" cols="2"></textarea>
+        </div><br>
+        <div id="blog-css">
+        <p>Rate</p>
+        </div>
+<div id="rate-box">
+	
+<select>
+	<option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+</select>
+</div>
+	
+            
+        </div>
 
-        </ul>
+        
       </div>
     </div>
     <div data-theme="a" data-role="footer">
@@ -42,7 +79,10 @@
         </h3>
     </div>
     <div data-role="content">
-      <ul data-role="listview" id="movie-data" data-theme="a">
+     
+     	<div>
+        	
+        </div>
 
       </ul>
     </div>

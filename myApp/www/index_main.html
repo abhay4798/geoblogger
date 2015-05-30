@@ -14,6 +14,12 @@
   <script src="iscroll.js"></script>
   <script src="jquery.mobile.iscrollview.js"></script>
   <script src="script.js"></script>
+  
+  <style>
+  		#sub-button{
+			width:30%; margin-left:auto; margin-right:auto;}
+			
+  </style>
 </head>
 
 <body>
@@ -25,9 +31,15 @@
     </div>
     <div data-role="content">
       <div class="example-wrapper" data-iscroll>
-        <ul data-role="listview" id="movie-list" data-theme="a">
-
-        </ul>
+      <br>
+        <div style="margin-left:10%; margin-right:10%;"><h3>Your starting location:</h3>
+        <input type="text" name="stpoint"/></div>
+        <br>
+        <div style="margin-left:10%; margin-right:10%;"><h3>Where are you heading?:</h3>
+        <input type="text" name="stpoint"/></div>
+        <br><br>
+        <div id="sub-button"><button>Continue</button></div>
+        	
       </div>
     </div>
     <div data-theme="a" data-role="footer">
